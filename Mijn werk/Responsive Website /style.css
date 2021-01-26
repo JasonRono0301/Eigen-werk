@@ -1,9 +1,17 @@
 body{
-    background-color: yellow;
+    margin: 0 auto;
 }
 
-@media only screen and (max-width: 600px){
-    body{
-        background-color: blue;
-    }
+.container{
+    display: block;
+    background-color: chartreuse;
+    width: 1000px;
+    height: 1200px;
+}
+
+.block{
+    display: block;
+    background-color: white;
+    width: 250px;
+    height: 300px;
 }
