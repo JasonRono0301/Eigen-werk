@@ -1,0 +1,43 @@
+body{
+    margin: 0 auto;
+}
+
+.container{
+    position: relative;
+    background-color: chartreuse;
+    width: 50vw;
+    height: 50vw;
+}
+
+.block{
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    background-color: white;
+    width: 25vw;
+    height: 25vw;
+}
+
+.container2{
+    margin-top: 20px;
+    position: relative;
+    background-color: chartreuse;
+    width: 50vw;
+    height: 50vw;
+}
+
+.block2{
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    background-color: white;
+    width: 25vw;
+    height: 25vw;
+}
+
+@media only screen and (min-width: 600px){
+    .container{background-color: red;}
+    .container2{background-color: blue;}
+    .block{background-color: greenyellow;}
+    .block2{background-color: hotpink;}
+}
