@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	font-size: 24px;
+	text-align: center;
+}
+
+.myImg{
+	width: 70%;
+}
+@media (max-width: 768px){
+	.myImg {
+		width: 100%;
+	}
+	html{
+		font-size: 16px;
+	}
+}
+h1{
+	font-size: 2rem;
+}
+nav{
+	font-size: 1rem;
+	display: flex;
+	justify-content: space-around;
+}
