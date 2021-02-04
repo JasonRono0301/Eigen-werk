@@ -1,0 +1,27 @@
+body{
+    overflow-x: hidden;
+}
+
+
+#container{
+    width: 800px;
+    height: 800px;
+    border: 2px solid black;
+    position: relative;
+    top: 50px;
+    left: 25%;
+}
+
+img{
+    width: 100%;
+}
+
+button{
+    position: fixed;
+    top: 50px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    border: 2px dotted white;
+    border-radius: 10px;
+}
