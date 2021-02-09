@@ -2,8 +2,8 @@
 var numbers = [1,2,3,4,5,6];//Array voor de dobbelsteen nummers.
 var button = document.createElement('button');//Maakt een button element aan.
 var image = document.getElementById("zijde")//Pakt de image element met daarin de id van het element.
-document.body.appendChild(button);
-button.innerHTML = "Druk hier";
+document.body.appendChild(button);//Laat het button element zien in de body.
+button.innerHTML = "Druk hier";//Text voor de button element.
 
 button.onclick = function(){//Begin van de functie.
     var random = Math.floor(Math.random() * 6);//Pakt een random nummer tussen 0 en 5;
@@ -24,6 +24,6 @@ button.onclick = function(){//Begin van de functie.
         image.setAttribute("src","img/Six.png");
     }
 
-    alert("Jou getal is " + output);
+    alert("Je heb " + output + " gegooid");
 
 }//Einde functie.
