@@ -4,6 +4,8 @@ body{
 
 .voorkant{
     position: relative;
+    left: 30%;
+    top: 120px;
     width: 500px;
     height: 500px;
     background-color: black;
